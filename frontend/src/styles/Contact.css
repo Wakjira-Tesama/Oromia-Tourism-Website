@@ -1,0 +1,129 @@
+/* Container & general text */
+.main-container {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  font-weight: 400;
+  text-align: left;
+  color: #555;
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 26px;
+  font-size: 15px;
+  box-sizing: border-box;
+  display: block;
+  padding: 70px 0;
+  position: relative;
+}
+
+/* Info boxes */
+.ts-service-box-bg {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ts-service-box-bg:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.ts-service-icon {
+  font-size: 40px;
+  color: #007bff; /* primary color */
+  margin-bottom: 15px;
+}
+.icon-round {
+  border-radius: 50%;
+  display: inline-block;
+  padding: 15px;
+  background-color: #e9ecef;
+}
+.ts-service-box-content h4 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #333;
+}
+.ts-service-box-content p {
+  margin: 0;
+  color: #666;
+}
+
+/* Google map */
+.google-map iframe {
+  border: none;
+  border-radius: 8px;
+}
+
+/* Form styles */
+form#contact-form {
+  margin-top: 30px;
+}
+.form-group {
+  margin-bottom: 1.5rem;
+}
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+  color: #343a40;
+}
+.form-control {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.25);
+}
+
+/* Button */
+.btn {
+  cursor: pointer;
+  border: none;
+  padding: 10px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Alerts */
+.alert {
+  padding: 1rem 1.25rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Spacing utilities you used */
+.gap-40 {
+  height: 40px;
+}
+.gap-60 {
+  height: 60px;
+}
