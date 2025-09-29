@@ -1,0 +1,243 @@
+.about-page {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  /* background-image: url('../assets/images/backgrounds/bg6.png'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.about-page h2 {
+  color: white;
+}
+
+.about-page p {
+  color: white;
+  font-size: 22px;
+}
+
+.section-title {
+  font-size: 40px;
+  margin: 40px 0 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #f2eaea;
+}
+
+.about-section h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.section-text {
+  font-size: 28px;
+}
+
+.section-text {
+  flex: 1;
+  padding: 20px;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.section-image {
+  flex: 1;
+  padding: 20px;
+}
+
+.section-image img {
+  width: 100%;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: 5px solid #ffffff;
+  opacity: 0.9;
+  transition: transform 0.3s ease;
+  filter: grayscale(20%);
+  cursor: pointer;
+}
+
+.section-image img:hover {
+  transform: scale(1.05);
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+.about-section {
+  padding: 60px 0;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.mission-section {
+  padding: 60px 0;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.services-section {
+  padding: 60px 0;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.team-section {
+  padding: 60px 0;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.history-section {
+  padding: 60px 0;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.values-section {
+  padding: 60px 0;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.awards-section {
+  padding: 60px 0;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.partners-section {
+  padding: 60px 0;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.contact-section {
+  padding: 60px 0;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.contact-section {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.contact-section h2, .contact-section p {
+  color: #f8f3f3;
+}
+
+.section-text p {
+  font-size: 20px;
+  line-height: 1.6;
+  padding-right: 20px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .section-content {
+    flex-direction: column;
+  }
+
+  .section-text, .section-image {
+    flex-basis: 100%;
+    padding: 10px;
+  }
+
+  .section-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+  .about-page p {
+    font-size: 18px;
+  }
+
+  .section-text {
+    font-size: 20px;
+  }
+
+  .about-section h2, 
+  .mission-section h2, 
+  .services-section h2, 
+  .team-section h2, 
+  .history-section h2, 
+  .values-section h2, 
+  .awards-section h2, 
+  .partners-section h2, 
+  .contact-section h2 {
+    font-size: 24px;
+  }
+}
+
+.about-section {
+  background: linear-gradient(135deg, #0c1412 0%, #43658b 100%);
+  border-radius: 0 0 50% 50% / 10%;
+}
+
+.mission-section {
+  background: linear-gradient(135deg, #0c1412 0%, #43658b 100%);
+  border-radius: 20% 20% 0 0 / 20%;
+}
+
+.services-section {
+  background: linear-gradient(135deg, #0c1412 0%, #43658b 100%);
+  border-radius: 10% 10% 0 0;
+}
+
+.team-section {
+  background: linear-gradient(90deg, #0c1412, #504a7d);
+  border-radius: 0 0 10% 10%;
+}
+
+.history-section {
+  background: linear-gradient(135deg, #252d44 0%, #43658b 100%);
+  border-radius: 0 0 30% 30%;
+}
+
+.values-section {
+  background: linear-gradient(-5deg, #0c1412, #4e68bb);
+  border-radius: 30% 30% 0 0;
+}
+
+.awards-section {
+  background: linear-gradient(to right,#0c1412, #4d4140, #453e3e);
+  border-radius: 0 0 20% 20%;
+}
+
+.partners-section {
+  background: linear-gradient(135deg,#0c1412, #1e2a4c);
+  border-radius: 20% 20% 0 0;
+}
+
+.contact-section {
+  background: linear-gradient(135deg, #0c1412 0%, #43658b 100%);
+  border-radius: 0 0 40% 40%;
+  color: #0c0000;
+}
+
+.contact-section .section-text p{
+  color: rgb(243, 237, 237);
+}
