@@ -1,0 +1,197 @@
+/* FilmsPage.css (full updated) */
+
+/* Basic reset for predictable sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Main container */
+.films-container {
+  padding: 10px 20px;
+  max-width: 1300px; /* smaller max width keeps grid from stretching to 4+ columns */
+  margin: 0 auto;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #222;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Grid: exactly 3 columns on large screens */
+.youtube-videos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row on large screens */
+  gap: 30px;
+  align-items: start;
+  justify-items: center; /* center each card in its grid cell */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* Individual card */
+.youtube-video {
+  width: 100%;
+  max-width: 400px; /* limit card width so grid keeps exactly 3 columns */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.25s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hover effect */
+.youtube-video:hover {
+  transform: translateY(-6px);
+}
+
+/* Make iframe responsive inside card */
+.youtube-video iframe {
+  display: block;
+  width: 100%;
+  height: 350px; /* fixed height for consistent look */
+  border: 0;
+  border-radius: 8px;
+}
+
+/* Description area */
+.video-description {
+  padding: 18px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.video-description h3 {
+  font-size: 1.15rem;
+  margin: 8px 0 6px;
+  color: #111;
+}
+
+.video-description p {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Spacer footer */
+.tempofooter {
+  margin-top: 70px;
+  height: 40px;
+}
+
+/* Responsive: 2 per row on medium screens */
+@media (max-width: 1240px) {
+  .films-container {
+    max-width: 1100px;
+  }
+
+  .youtube-videos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .youtube-video iframe {
+    height: 350px;
+  }
+}
+
+/* Responsive: 1 per row on small screens */
+@media (max-width: 700px) {
+  .films-container {
+    padding: 24px 12px;
+    max-width: 700px;
+  }
+
+  .youtube-videos {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .youtube-video {
+    max-width: 100%;
+  }
+
+  .youtube-video iframe {
+    height: 350px;
+  }
+}
+/* headerFilms.css */
+
+.films-hero {
+  z-index: -1;
+  text-align: center;
+  margin-bottom: 3px;
+  background-image: url("../assets/images/backgrounds/abba.png");
+  background-size: cover;
+
+  background-position: center;
+  color: #fff;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding-bottom: 30px;
+  width: relative;
+  opacity: 0.8;
+  padding-bottom: 70px;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+.films-hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+}
+
+.films-hero h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.films-hero .discoverPara {
+  font-size: 21px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.films-hero P {
+  font-size: 19px;
+  color: black;
+  margin: 0 auto;
+  width: 800px;
+  text-shadow: none;
+  color: white;
+}
+
+.films-hero .bottom-header {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(72, 0, 255);
+  margin: 20px auto 0 auto;
+}
+
+.films-hero .films-h1 {
+  font-size: 30px;
+}
+
+.films-hero .films-hero-text {
+  font-size: 18px;
+  color: black;
+}
+
+.films-hero .section-text-p {
+  font-size: 18px;
+  color: black;
+}
