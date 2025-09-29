@@ -1,0 +1,352 @@
+/* bale.css - Styles for Bale Mountains National Park page */
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bale-page-container {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #f8f9fa;
+}
+.park-content {
+  padding: 20px;
+}
+/* Hero Section */
+.park-header {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 10px;
+  margin: 0 20px 30px;
+  overflow: hidden;
+}
+
+.header-overlay {
+  text-align: center;
+  color: white;
+  padding: 30px;
+  max-width: 800px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.park-header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.park-header h2 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  color: yellowgreen;
+}
+
+.location-tag {
+  background: rgba(45, 106, 79, 0.8);
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+}
+
+/* Content Sections */
+.park-content {
+  padding: 20px;
+}
+
+.park-section {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.park-section ul {
+  padding-left: 20px; /* Adjust as needed */
+  margin: 0; /* Remove default margin */
+  text-align: left; /* Ensure text aligns left */
+}
+
+.park-section li {
+  list-style-position: inside; /* Makes bullets part of text flow */
+  margin-bottom: 8px; /* Space between list items */
+}
+.park-section h2 {
+  color: #2d6a4f;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+hr {
+  height: 3px;
+  background: #40916c;
+  border: none;
+  margin-bottom: 20px;
+  width: 100px;
+}
+
+.park-section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: black;
+}
+/* Flex Layout Sections */
+.flex-section {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: nowrap; /* Prevent wrapping */
+}
+.section-image {
+  flex: 1;
+  min-width: 300px;
+  border-radius: 8px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.text-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Restaurant Styles */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #f1f8f5;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+/* FAQ Styles */
+.faq-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-start;
+  margin: 30px 0;
+}
+
+.faq-image {
+  flex: 1;
+  min-width: 300px;
+  border-radius: 8px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.faq-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.faq-intro {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.faq-list {
+  list-style: none;
+  padding: 0;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #1b4332;
+  cursor: pointer;
+  padding: 15px;
+  background: #f1f8f5;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.faq-question:hover {
+  background: #d8f3dc;
+}
+
+.faq-icon {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.faq-answer {
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 0 0 5px 5px;
+  margin-top: 5px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.faq-divider {
+  height: 1px;
+  background: #eee;
+  border: none;
+  margin: 15px 0;
+}
+
+.div-out-hr {
+  margin-bottom: 20px;
+}
+
+/* Location Styles */
+.location-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+
+.location-container iframe {
+  flex: 1;
+  min-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  height: 400px;
+}
+
+.location-container p {
+  flex: 1;
+  min-width: 300px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* Video Section */
+.watch-video-btn {
+  background: #2d6a4f;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.watch-video-btn:hover {
+  background: #1b4332;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.video-container {
+  margin: 20px 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .park-container {
+    margin-top: 180px; /* More space for mobile header */
+  }
+
+  .park-header {
+    height: 300px;
+    margin: 0 10px 20px;
+  }
+
+  .park-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .park-header h2 {
+    font-size: 1.3rem;
+  }
+
+  .image-group {
+    flex-direction: column;
+  }
+
+  .attraction-image,
+  .section-image,
+  .faq-image {
+    min-width: 100%;
+  }
+
+  .flex-section {
+    flex-direction: column;
+  }
+
+  .location-container iframe {
+    height: 300px;
+  }
+
+  .park-section {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .park-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .park-header h2 {
+    font-size: 1.1rem;
+  }
+
+  .location-tag {
+    font-size: 0.9rem;
+    padding: 6px 15px;
+  }
+
+  .park-section h2 {
+    font-size: 1.5rem;
+  }
+}
