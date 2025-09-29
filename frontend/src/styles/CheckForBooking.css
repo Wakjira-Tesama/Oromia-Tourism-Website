@@ -1,0 +1,119 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .check-booking-page {
+    align-items: center;
+    background: linear-gradient(to right, #fdfdfd, #feb47b);
+    animation: gradient 5s ease infinite;
+    padding-top: 50px;
+  }
+
+  .allcontents{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:70vh;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .content {
+    flex: 0 0 40%;
+    text-align: left;
+    padding: 20px;
+    color: rgb(17, 15, 15);
+    animation: fadeIn 2s;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+  }
+  
+  .check-booking-page h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  
+
+  .buttons {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-button,
+  .login-button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .register-button {
+    background-color: #34c6eb;
+  }
+  
+  .login-button {
+    background-color: #2ecc71;
+  }
+  
+  .register-button:hover,
+  .login-button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Image container styling */
+  .image-container {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    animation: slideIn 2s;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: 40vh;
+    border-radius: 10px;
+  }
+  
+ 
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
