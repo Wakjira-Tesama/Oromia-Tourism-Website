@@ -1,0 +1,90 @@
+/* DressingPage.css */
+
+.dressing-container {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 50px;
+  z-index: 1000;
+}
+
+.dressing-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.dressing-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dressing-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  max-width: 400px;
+  text-align: left;
+  margin: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dressing-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.dressing-image {
+  width: 100%;
+  height: 500px;
+  padding-top: 15px;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+
+  transition: transform 0.2s;
+}
+
+.dressing-item:hover .dressing-image {
+  transform: scale(1.1);
+}
+
+.dressing-description {
+  padding: 15px;
+}
+
+.dressing-description h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.dressing-description p {
+  font-size: 1rem;
+  color: #201e1e;
+}
+
+/* Add styles for hero section */
+.dressing-hero {
+  background-color: rgb(7, 7, 49);
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.dressing-hero h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.dressing-hero .discoverPara {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.dressing-hero P {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
