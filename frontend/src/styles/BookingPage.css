@@ -1,0 +1,97 @@
+/* src/styles/BookingPage.css */
+.body-booking {
+  font-family: Arial, sans-serif;
+  background-color: #f7f4f5;
+  margin: 0;
+  padding: 30px;
+}
+
+.container-booking {
+  width: 50%;
+  margin-top: 50px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border-width:3px ;
+  margin: auto;
+  box-shadow: #000f01;
+  border-color: #05640c;
+  border-bottom-width: 5px;
+  border-bottom-color: rgb(87, 9, 94);
+  border-style: outset;
+  border-right-color: rgb(28, 28, 59);
+  border-right-width: 9px;
+  border-end-start-radius: 48px ;
+  background-color: transparent;
+}
+
+.heading-booking {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group-booking {
+  margin-bottom: 15px;
+}
+
+.form-group-booking label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group-booking input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-group-booking {
+  margin-bottom: 15px;
+}
+
+.form-group-booking label {
+  display: block;
+  margin-bottom: 10px;
+  color: #060325;
+
+}
+
+.form-group-booking input,
+.form-group-booking select,
+.form-group-booking textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;  border-color: rgb(24, 7, 102);
+}
+
+.form-group-booking textarea {
+  resize: vertical;
+}
+
+
+.button-booking {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-booking:hover {
+  background-color: #218838;
+}
+
+.error-booking {
+  color: #ff0000;
+  margin-bottom: 15px;
+  text-align: center;
+}
