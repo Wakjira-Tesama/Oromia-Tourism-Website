@@ -1,0 +1,53 @@
+.terms-hero {
+    text-align: center;
+    margin-bottom: 3px;
+    background-image: url('../assets/images/semen/semen87.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 3px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding-bottom: 30PX;
+    width: relative;
+    padding-bottom: 70px;
+    margin: 0;
+    text-align: center;
+    opacity: 0.9;  font-family: Arial, sans-serif;
+  }
+  
+  .terms-hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .terms-hero p {
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hiking-hr {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(72, 0, 255);
+    margin-right: 80px;
+  
+  }
+  
+  .hiking-h1 {
+    font-size: 30px;
+  }
+  
+  .wildlife-safari-hero-text {
+    font-size: 18px;
+    color: black;
+  
+  }
+  
+  .section-text-p {
+    font-size: 18px;
+    color: black;
+  }
