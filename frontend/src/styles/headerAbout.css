@@ -1,0 +1,42 @@
+
+  .about-hero {
+    background-image: url('../assets/images/backgrounds/Bestbg.jpg');
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 3px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 120px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding-bottom: 30PX;
+   width: relative;
+    margin: 0 ;
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .about-hero h1 {
+    margin-top: 5px;
+    font-size: 27px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .about-hero p {
+    font-size: 21px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  hr{
+    width: 50%;
+    height: 3px;
+    background-color: rgb(72, 0, 255);
+    margin-right: 80px;
+  
+  }
+
+
