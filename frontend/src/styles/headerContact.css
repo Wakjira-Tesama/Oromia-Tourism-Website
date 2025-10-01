@@ -1,0 +1,39 @@
+
+.contact-hero {
+    text-align: center;
+    margin-bottom: 3px;
+    background-image: url('../assets/images/backgrounds/Geter.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding-bottom: 30PX;
+    opacity:9.5;
+    font-family: Arial, sans-serif;
+    width: relative;
+    margin: 0 ;
+    text-align: center;
+  margin-top: 70px;padding-bottom: 70px;
+  font-family: Arial, sans-serif;
+  }
+  
+  .contact-hero h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact-hero P {
+    font-size: 21px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .contact-hero .headercontent {
+    width: 900px;
+    margin: auto;
+  }
+
