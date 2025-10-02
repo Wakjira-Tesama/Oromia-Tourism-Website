@@ -1,0 +1,25 @@
+/* TourListing.css */
+.tour-listing {
+    background-color: #443e3e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tour-listing:hover {
+    background-color: #12aa12;
+  }
+  
+  .tour-listing h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .tour-listing p {
+    font-size: 16px;
+    color: #666;
+  }
+  
