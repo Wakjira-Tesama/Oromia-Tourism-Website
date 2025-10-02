@@ -1,0 +1,76 @@
+.hiking-container {
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding-left: 0;  font-family: Arial, sans-serif;
+}
+.hiking-container hr{
+    width: 95%;
+    border: 1px solid #02352c;
+    margin:  auto;
+    background-color: black;
+}
+.hero-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.hiking-container p{
+    width: 600px;
+  
+    margin: auto;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 50px;
+
+}
+.hero-section h1 {
+    font-size: 36px;
+    color: #aabbb8;
+    margin-bottom: 10px;
+}
+
+.hiking-hr {
+  
+
+}
+
+.hero-text {
+    font-size: 20px;
+    color: #0a0101;
+    margin-bottom: 20px;
+    width: 88%;
+    margin-right: 30px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.hiking-container h2 {
+    font-size: 28px;
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.hiking-section-image {
+    height: 400px;
+    width: 450px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    margin-left: 160px;
+}
+
+.hiking-section-image:hover {
+    transform: scale(1.05);
+}
+
+.section-text {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
