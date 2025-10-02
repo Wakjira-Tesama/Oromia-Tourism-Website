@@ -1,0 +1,112 @@
+.mainQuestionBody {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: relative; 
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(37, 37, 29); */
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+.mainQuestionBody .topQuestionForm {
+  color: white;
+  font-size: 25px;
+}
+
+.question-form-container {
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-image: url("../assets/images/7faa2ed60406b31364129c651d6bb82.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  border-width:3px ;
+  margin: auto;
+  box-shadow: #000f01;
+  border-color: #05640c;
+  border-bottom-width: 5px;
+  border-bottom-color: rgb(87, 9, 94);
+  border-style: outset;
+  border-right-color: rgb(28, 28, 59);
+  border-right-width: 9px;
+  border-end-start-radius: 48px ;
+  background-color: transparent;
+
+}
+.question-form-container:hover{
+  box-shadow: inset;
+  
+}
+.question-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: rgb(6, 7, 8);
+}
+
+.submitQuestion {
+  background-color: #05640c;
+
+  color: rgb(27, 26, 26);
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.submitQuestion:hover {
+  background-color: #a04559;
+}
+
+.mainQuestionBody p {
+  color: black;
+  font-size: 22px;
+}
+
+@media (max-width: 768px) {
+  .question-form-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+
+  .submitQuestion {
+    width: 100%;
+  }
+
+  .mainQuestionBody .topQuestionForm {
+    font-size: 20px;
+  }
+}
