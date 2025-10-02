@@ -1,0 +1,77 @@
+.photography-page {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  z-index: 100;
+}
+
+.photography-page hr {
+  width: 98%;
+  margin: auto;
+  background-color: black;
+}
+
+.photography-section {
+  margin-bottom: 2rem;
+}
+
+.photography-description {
+  font-size: 22px;
+  /* margin-bottom: 33rem; */
+  width: 1300px;
+  margin: 30px;
+}
+
+.photo-opportunities {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-opportunity {
+  flex: 0 1 30%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.photo-opportunity h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.photo-opportunity p {
+  color: black;
+  background-color: white;
+  font-size: 20px;
+}
+.photo-opportunity button {
+  background-color: rgb(61, 59, 224);
+  color: white;
+}
+.photo-opportunity button:hover {
+  background-color: rgb(56, 214, 148);
+  color: white;
+}
+.photograph-image {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.photo-tips-section {
+  margin-bottom: 2rem;
+}
+
+.photo-tips-section h2 {
+  margin-bottom: 1rem;
+}
+
+.photo-tips-list {
+  list-style-type: disc;
+  padding-left: 0;
+  text-align: left;
+  margin-left: 260px;
+}
+
+.photo-tips-list li {
+  margin-bottom: 0.5rem;
+  list-style: none;
+  font-size: 20px;
+}
