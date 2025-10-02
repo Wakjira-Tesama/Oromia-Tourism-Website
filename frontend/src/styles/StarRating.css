@@ -1,0 +1,23 @@
+/* src/styles/StarRating.css */
+.star-rating {
+    display: flex;
+    direction: row;
+    margin-left: 65px;  font-family: Arial, sans-serif;
+}
+
+.star-rating button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+}
+
+.star-rating .star {
+    font-size: 2.2em;
+    color: #d3d3d3;
+}
+
+.star-rating .on .star {
+    color: #ffc107;
+}
