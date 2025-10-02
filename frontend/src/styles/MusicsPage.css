@@ -1,0 +1,46 @@
+.music-container {
+  padding: 40px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.youtube-videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.youtube-video {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.youtube-video:hover {
+  transform: translateY(-5px);
+}
+
+.youtube-video iframe {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.video-description {
+  margin-top: 10px;
+}
+
+.video-description h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.video-description p {
+  font-size: 0.95rem;
+  color: #666;
+}
