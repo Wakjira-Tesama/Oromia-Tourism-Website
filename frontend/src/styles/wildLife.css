@@ -1,0 +1,144 @@
+/* Add your custom styles for the Ethiopian Wildlife Safaris page here */
+
+.ethiopian-wildlife-safaris-page {
+    font-family: Arial, sans-serif;
+    background-color: rgb(248, 250, 253);
+    width: 100%;
+    margin: 0 ;
+    text-align: center;
+  }
+  
+
+  .explore-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .explore-button:hover {
+    background-color: #45a049;
+  }
+  
+  .highlighted-destinations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 20px;
+  }
+  
+  .destination {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .destination:hover {
+    transform: translateY(-5px);
+  }
+  
+  .destination img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .destination-info {
+    padding: 20px;
+  }
+  
+  .destination-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f5f3f3;
+  }
+  
+  .destination-info p {
+    font-size: 19px;
+    color: white;
+  }
+  
+  .feature-section {
+    background-color: rgb(32, 44, 66);
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .feature {
+    max-width: 300px;
+    margin: 0 auto 50px;
+  }
+  
+  .feature i {
+    font-size: 48px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .feature p {
+    font-size: 19px;
+    color: white;
+  }
+  
+  .cta-section {
+    background-color:rgb(32, 44, 66);
+    color: #fff;
+    padding: 40px 30px;
+    text-align: center;
+  }
+  
+  .cta-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .cta-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .cta-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .book-now-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .book-now-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .wildLife-hr{
+    background-color: rgb(19, 17, 24);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 98%;
+height: 3pxx;
+margin: auto;
+margin-top: 10px;
+  }
