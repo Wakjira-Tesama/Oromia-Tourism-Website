@@ -1,0 +1,67 @@
+/* RegistrationForm.css */
+login-form-container{
+    background-color: white;  font-family: Arial, sans-serif;
+}
+ .login-form{
+width: 500px;
+margin: auto;
+margin-bottom: 50px;
+background-color: rgb(154, 190, 173);
+padding: 30px;
+
+border-radius: 30px;
+height: 400px;
+
+border-width:3px ;
+  margin: auto;
+  box-shadow: #000f01;
+  border-color: #05640c;
+  border-bottom-width: 5px;
+  border-bottom-color: rgb(87, 9, 94);
+  border-style: outset;
+  border-right-color: rgb(28, 28, 59);
+  border-right-width: 9px;
+  border-end-start-radius: 48px ;
+  background-color: transparent;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #060325;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .loginBtn {
+    background-color: #2f2cdd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+  }
+  
+  .loginBtn:hover {
+    background-color: #69d16e;
+  }
+  
