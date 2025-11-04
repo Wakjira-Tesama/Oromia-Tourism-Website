@@ -184,7 +184,7 @@ Despite this richness, tourists often face challenges such as:
 
 ## 🏗️ System Architecture
 
-```plaintext
+
                 ┌─────────────┐
                 │   Frontend  │
                 │ React + TS  │
@@ -258,9 +258,14 @@ Wakjira Tesama Abdisa
 
 
 **Wakjira Tesama Abdisa**  
-📧 Email: [wakjiratesama@gmail.com](mailto:wakjiratesama@gmail.com)  
+📬 Contact
+---
+
+📧 Email: [# wakjiratesama@gmail.com](mailto:wakjiratesama@gmail.com)  
 🌐 GitHub: [Wakjira-Tesama](https://github.com/Wakjira-Tesama)  
 💼 LinkedIn: [Wakjira Tesama](https://www.linkedin.com/in/wakjira-tesama/)
+
+
 
 
 
