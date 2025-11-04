@@ -252,9 +252,7 @@ Create a Pull Request
 This project is licensed under the MIT License — see the LICENSE
  file for details.
 
-📬 Contact
 
-Wakjira Tesama Abdisa
 
 
 **Wakjira Tesama Abdisa**  
