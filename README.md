@@ -199,3 +199,69 @@ Despite this richness, tourists often face challenges such as:
                        │
                  MongoDB Atlas
           (Data persistence and storage)
+🧭 Setup Instructions
+
+Clone this repository:
+
+git clone https://github.com/Wakjira-Tesama/OromiaTourism.git
+
+
+Navigate into the project folder:
+
+cd OromiaTourism
+
+
+Install dependencies for both backend and frontend:
+
+npm install
+
+
+Create a .env file and add your Chapa API key and MongoDB connection string.
+
+Run the development servers:
+
+npm run dev
+
+💡 Future Improvements
+
+Add multi-language support (English, Afaan Oromo, Amharic).
+
+Enable advanced search and filtering for destinations.
+
+Integrate AI chatbot for tourist guidance.
+
+Add analytics dashboard for admins.
+
+🤝 Contributing
+
+Contributions are always welcome!
+To contribute:
+
+Fork the repository
+
+Create a new branch (feature/your-feature)
+
+Commit your changes
+
+Push to your fork
+
+Create a Pull Request
+
+📜 License
+
+This project is licensed under the MIT License — see the LICENSE
+ file for details.
+
+📬 Contact
+
+Wakjira Tesama Abdisa
+📧 Email: wakjiratesama@gmail.com
+
+🌐 GitHub: Wakjira-Tesama
+
+💼 LinkedIn: Wakjira-Tesama
+
+
+---
+
+
