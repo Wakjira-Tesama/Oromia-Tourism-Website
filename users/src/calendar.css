@@ -1,0 +1,187 @@
+.featured-destinations-section,
+.featured-activities {
+  padding: 2rem;
+}
+
+.destination-list,
+.activity-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.destination-card,
+.activity {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.destination-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.discover-more-btn,
+.add-to-cart-btn,
+.main-toggle-btn {
+  background: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.add-to-cart-btn {
+  background: #28a745;
+}
+
+.cart-section {
+  padding: 2rem;
+  background: #f9f9f9;
+}
+/* Calendar.css */
+
+/* Page wrapper */
+.calendar-page {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Section titles */
+h2 {
+  margin-bottom: 1rem;
+  color: #222;
+  font-size: 1.8rem;
+}
+
+/* Grid layout for cards */
+.destination-list,
+.activity-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  width: 100%;
+}
+
+/* Card styling */
+.destination-card,
+.activity {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Card hover effect */
+.destination-card:hover,
+.activity:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Images in cards */
+.destination-card img,
+.activity img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 100px;
+  height: 30px;
+}
+
+.discover-more-btn,
+.add-to-cart-btn,
+.main-toggle-btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.discover-more-btn:hover,
+.add-to-cart-btn:hover,
+.main-toggle-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Flex for buttons inside cards */
+.destination-card .btn-group,
+.activity .btn-group {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+/* Cart section */
+.cart-section {
+  margin-top: 2rem;
+}
+
+.cart-section h3 {
+  margin-bottom: 0.5rem;
+}
+
+.cart-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Total price styling */
+.cart-section p {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Star rating */
+.star-rating span {
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: gray;
+  margin-right: 0.1rem;
+}
+
+.star-rating .filled {
+  color: gold;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
