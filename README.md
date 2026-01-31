@@ -1,264 +1,195 @@
 # 🌍 Oromia Tourism
 
-**Oromia Tourism** is a comprehensive Oromia tourism and booking platform designed to revolutionize how travelers discover and experience Oromia.  
-It provides **detailed destination insights, cultural knowledge, secure bookings, and multi-level administration**.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Frontend](https://img.shields.io/badge/Frontend-React%20%7C%20Vite-blue)](https://reactjs.org/)
+[![Backend](https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-green)](https://nodejs.org/)
+[![Database](https://img.shields.io/badge/Database-MongoDB-forestgreen)](https://www.mongodb.com/)
+[![Payment](https://img.shields.io/badge/Payment-Chapa-orange)](https://chapa.co/)
 
-This platform bridges the gap between tourists and Oromia travel services through a **modern, interactive, and reliable web interface**.  
-Users can explore the rich heritage, landscapes, and hospitality of Oromia seamlessly.
+**Oromia Tourism** is a comprehensive digital ecosystem designed to revolutionize the travel experience in Oromia. It acts as a bridge between the rich cultural heritage of the region and global travelers, offering a seamless, secure, and interactive platform for discovery and booking.
 
 ---
 
 ## 📌 Table of Contents
-- [Project Overview](#project-overview)
-- [Key Objectives](#key-objectives)
-- [Features](#features)
-- [User Flow](#user-flow)
-- [Admin System](#admin-system)
-- [Booking & Payment](#booking--payment)
-- [Technologies Used](#technologies-used)
-- [System Architecture](#system-architecture)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
-- [Environment Variables](#environment-variables)
-- [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
+- [📖 Project Overview](#-project-overview)
+- [✨ Features](#-features)
+- [🧩 System Architecture](#-system-architecture)
+- [🔄 User Flow & User Stories](#-user-flow--user-stories)
+- [🛠️ Tech Stack](#-tech-stack)
+- [🚀 Setup & Installation](#-setup--installation)
+- [💳 Booking & Payments](#-booking--payments)
+- [🛡️ Administration](#-administration)
+- [🤝 Contributing](#-contributing)
+- [📬 Contact](#-contact)
 
 ---
 
 ## 📖 Project Overview
 
-Oromia, known for its **diverse cultures, ancient civilizations, and breathtaking landscapes**, is a top destination for world travelers.  
-Despite this richness, tourists often face challenges such as:
-- Limited access to reliable information.  
-- Difficulty booking trusted services.  
-- Navigating local customs and cultural nuances.
+Oromia offers diverse cultures, ancient civilizations, and breathtaking landscapes. However, the tourism sector has historically faced challenges in digital accessibility. **OromiaTourism** solves this by providing:
 
-**OromiaTourism** addresses these issues by providing:
-- **Destination Pages**: Detailed history, attractions, cultural highlights, and interactive maps.  
-- **Booking Management**: User, Admin Zone, and General Admin coordination for seamless bookings.  
-- **Cultural Insights**: Information on music, food, films, and traditional dress.  
-- **Payment Integration**: Secure payment gateway via Chapa API.  
-- **Role-based Administration**: Ensures reliable and transparent service delivery.
-
-🖼️ Example Screenshot:  
-<p align="center">
-  <img src="./readimage/home.png" alt="Homepage" width="800"/>
-  <img src="./readimage/home1.png" alt="Homepage Alt 1" width="800"/>
-  <img src="./readimage/home (2).png" alt="Homepage Alt 2" width="800"/>
-</p>
-
----
-
-## 🎯 Key Objectives
-
-- Offer a **one-stop platform** for Ethiopian tourism.  
-- Enable **secure, transparent bookings** with admin oversight.  
-- Provide **insightful cultural information** to enrich traveler experiences.  
-- Facilitate **role-based administration** for effective system management.  
-- Build a **scalable platform** using TypeScript and the MERN stack.  
-- Ensure **mobile responsiveness** and fast-loading pages for all users.
+1.  **Centralized Discovery**: A single source of truth for destinations like Bale Mountains, Sof Omar Caves, and Wenchi Crater Lake.
+2.  **Trust & Security**: Verified admin-managed listings and secure payment processing.
+3.  **Cultural Immersion**: Beyond just places, we showcase the *soul* of Oromia—its food, music, films, and traditions.
 
 ---
 
 ## ✨ Features
 
-### 🌍 Destination Pages
-- Historical and cultural background.  
-- Top attractions and landmarks.  
-- Hotels, restaurants, and accommodations.  
-- Local culture, traditions, and events.  
-- Google Maps integration.  
-- Interactive galleries of images and videos.
+### 🌍 Destination Exploration
+*   **Interactive Maps**: Integrated Google Maps for precise location tracking.
+*   **Rich Media**: High-quality image galleries and video tours.
+*   **Deep Insights**: Historical context, best times to visit, and local guides.
 
-🖼️ Example:  
-<p align="center">
-  <img src="./readimage/adminAdddestination.png" alt="Destination Add Page" width="800"/>
-  <img src="./readimage/adminBookProve.png" alt="Booking Proof Page" width="800"/>
-  <img src="./readimage/profile.png" alt="User Profile Page" width="800"/>
-</p>
+### 👤 User-Centric Design
+*   **Smart Booking Engine**: Real-time availability checks and instant booking requests.
+*   **Personalized Dashboard**: Track booking status, view history, and manage profile settings.
+*   **Secure Transactions**: Integrated **Chapa** payment gateway for safe, verifiable transactions.
 
----
-
-### 👤 User Features
-- Secure registration and login.  
-- Profile management (edit/update personal info).  
-- Explore destinations and compare prices.  
-- Book trips securely with **Chapa payment integration**.  
-- Track booking history and approval status.  
-- Receive notifications for upcoming trips and promotions.
-
-🖼️ Example:  
-<p align="center">
-  <img src="./readimage/userRegister.png" alt="User Registration Page" width="800"/>
-  <img src="./readimage/userDashboard.png" alt="User Dashboard" width="800"/>
-  <img src="./readimage/home (3).png" alt="User Homepage" width="800"/>
-</p>
+### 🛡️ Multi-Level Administration
+*   **Zone Admins**: Managed specific regions (e.g., Bale Zone Admin manages only Bale resources).
+*   **General Admin**: Superuser with oversight of all zones, users, and system analytics.
 
 ---
 
-## 🛠️ Admin System
+## 🧩 System Architecture
 
-### 🔹 Admin Zone
-- Each Admin Zone has a unique ID.  
-- Add, edit, and delete destinations.  
-- Approve or reject user booking requests.  
-- Manage local accommodations and cultural insights.  
-- Monitor bookings and payment statuses within the zone.
+The project follows a **Client-Server Architecture** decoupled via RESTful APIs.
 
-🖼️ Example:  
-<p align="center">
-  <img src="./readimage/adminAdddestination.png" alt="Admin Add Destination" width="800"/>
-  <img src="./readimage/adminBookProve.png" alt="Admin Booking Verification" width="800"/>
-  <img src="./readimage/GeneralAdinDash.png" alt="Admin Dashboard" width="800"/>
-</p>
+```mermaid
+graph TD
+    Client[🖥️ Client / Frontend]
+    Server[⚙️ Server / Backend]
+    DB[(🗄️ Database / MongoDB)]
+    Payment[💳 Payment Gateway / Chapa]
 
-### 🔹 General Admin
-- Controls all Admin Zones.  
-- Add, edit, or delete Admin Zone accounts.  
-- Supervise all bookings and payment approvals.  
-- Maintain system integrity and monitor analytics.
+    Client -- HTTP Requests (Axios) --> Server
+    Server -- Queries/Updates --> DB
+    Server -- Payment Verification --> Payment
+    Payment -- Webhooks/Callbacks --> Server
+    Server -- JSON Responses --> Client
+```
 
-🖼️ Example:  
-<p align="center">
-  <img src="./readimage/GeneralAddadmin.png" alt="General Admin Add" width="800"/>
-  <img src="./readimage/GeneralAdinDash.png" alt="General Admin Dashboard" width="800"/>
-  <img src="./readimage/adminBookProve.png" alt="Booking Proof by General Admin" width="800"/>
-</p>
+### Key Components:
+-   **Frontend**: Built with React and Vite for blazing fast performance. Uses Tailwind CSS for a modern, responsive UI.
+-   **Backend**: Node.js/Express REST API handling business logic, authentication (JWT), and data validation.
+-   **Database**: MongoDB Atlas for flexible schema design, storing users, destinations, and booking records.
 
 ---
 
-## 🔄 User Flow
+## 🔄 User Flow & User Stories
 
-1. **Homepage** → Explore destinations in Oromia.  
-2. **Login / Register** → Create an account.  
-3. **Browse Destinations** → View attractions, hotels, and pricing.  
-4. **Booking** → Submit trip requests.  
-5. **Admin Zone Review** → Approve or reject requests.  
-6. **General Admin Supervision** → Ensure process integrity.  
-7. **Payment** → Complete booking via Chapa API.  
-8. **Trip Confirmed!** 🎉
+The platform supports three distinct user roles, each with a tailored workflow.
 
-🖼️ Example Flowchart:  
-<p align="center">
-  <img src="./readimage/userDashboard.png" alt="User Dashboard Flow" width="800"/>
-  <img src="./readimage/profile.png" alt="Profile Flow" width="800"/>
-</p>
+```mermaid
+sequenceDiagram
+    participant User
+    participant System
+    participant Admin
+    
+    User->>System: 1. Browses Destinations
+    User->>System: 2. Submits Booking Request
+    System->>Admin: 3. Notifies Admin of New Request
+    Admin->>System: 4. Reviews & Approves/Rejects
+    System->>User: 5. Notification of Approval
+    User->>System: 6. Makes Payment (Chapa)
+    System->>System: 7. Verifies Payment
+    System->>User: 8. Issues Ticket / Confirmation
+```
 
----
+### 👤 The Traveler
+> "As a traveler, I want to explore cultural sites and book a verified guide so that I can have a safe and authentic experience."
 
-## 💳 Booking & Payment
+### 👮 The Zone Admin
+> "As a Zone Admin, I want to manage listings in my specific region and approve bookings so that I can ensure quality control."
 
-- Secure integration with **Chapa Payment Gateway**.  
-- Payment verification before final confirmation.  
-- Admin validation of payment proofs.  
-- Users can track payment and booking status in real-time.
-
-🖼️ Example:  
-<p align="center">
-  <img src="./readimage/userRegister.png" alt="Payment Page" width="800"/>
-  <img src="./readimage/adminBookProve.png" alt="Payment Verification" width="800"/>
-</p>
+### 👨‍💻 The General Admin
+> "As a General Admin, I want to oversee the entire system health and manage other admins to ensure platform stability."
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-### **Frontend**
-- React + Vite  
-- TypeScript  
-- Tailwind CSS (modern responsive UI)
-
-### **Backend**
-- Node.js  
-- Express.js  
-- MongoDB (Mongoose ODM)
-
-### **Tools**
-- Nodemon (auto backend restart)  
-- dotenv (environment variable management)  
-- Chapa API (secure payments)
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **Frontend** | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black) | Component-based UI library |
+| **Build Tool** | ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white) | Next-generation frontend tooling |
+| **Styling** | ![Tailwind](https://img.shields.io/badge/-Tailwind-38B2AC?logo=tailwind-css&logoColor=white) | Utility-first CSS framework |
+| **Backend** | ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white) | Javascript runtime environment |
+| **Framework** | ![Express](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white) | Web framework for Node.js |
+| **Database** | ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white) | NoSQL database |
 
 ---
 
-## 🏗️ System Architecture
+## 🚀 Setup & Installation
 
+Follow these "smart" steps to get the application running locally in minutes.
 
-                ┌─────────────┐
-                │   Frontend  │
-                │ React + TS  │
-                └──────┬──────┘
-                       │
-             HTTP/REST APIs
-                       │
-                ┌──────┴──────┐
-                │   Backend   │
-                │ Node + Exp  │
-                └──────┬──────┘
-                       │
-                 MongoDB Atlas
-          (Data persistence and storage)
-🧭 Setup Instructions
+### Prerequisites
+- Node.js (v16+)
+- MongoDB Atlas Account or Local MongoDB
 
-Clone this repository:
-
+### 1. Clone the Repository
+```bash
 git clone https://github.com/Wakjira-Tesama/OromiaTourism.git
-
-
-Navigate into the project folder:
-
 cd OromiaTourism
+```
 
-
-Install dependencies for both backend and frontend:
-
+### 2. Frontend Setup
+```bash
+cd frontend
 npm install
-
-
-Create a .env file and add your Chapa API key and MongoDB connection string.
-
-Run the development servers:
-
 npm run dev
+```
 
-💡 Future Improvements
+### 3. Backend Setup
+```bash
+cd backend
+npm install
+# Create .env file with:
+# PORT=4000
+# MONGO_URI=your_mongodb_connection_string
+# CHAPA_SECRET_KEY=your_chapa_key
+npm start
+```
 
-Add multi-language support (English, Afaan Oromo, Amharic).
+---
 
-Enable advanced search and filtering for destinations.
+## 💳 Booking & Payments
 
-Integrate AI chatbot for tourist guidance.
+We use **Smart Payment Verification**.
+1.  User initiates booking.
+2.  Admin approves booking based on availability.
+3.  User pays via Chapa (mobile money/cards).
+4.  **Backend Webhook** automatically verifies the transaction ID with Chapa servers before confirming the booking status in the database. This prevents fake payment slips.
 
-Add analytics dashboard for admins.
+---
 
-🤝 Contributing
+## 🛡️ Administration
 
-Contributions are always welcome!
-To contribute:
+The system is designed with a hierarchy of trust:
+1.  **GenAdmin**: The root operator. Can create Zone Admins.
+2.  **ZoneAdmin**: Restricted scope. Can only edit content for their assigned geographic zone (e.g., "Bale Zone").
 
-Fork the repository
+---
 
-Create a new branch (feature/your-feature)
+## 🤝 Contributing
 
-Commit your changes
+We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details on:
+1.  Forking the repo
+2.  Creating feature branches (`git checkout -b feature/AmazingFeature`)
+3.  Committing changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Pushing to the branch (`git push origin feature/AmazingFeature`)
+5.  Opening a Pull Request
 
-Push to your fork
+---
 
-Create a Pull Request
-
-📜 License
-
-This project is licensed under the MIT License — see the LICENSE
- file for details.
-
-
-
+## 📬 Contact
 
 **Wakjira Tesama Abdisa**  
-📬 Contact
----
+Full Stack Developer | Visionary Tech Enthusiast
 
-📧 Email: [wakjiratesama@gmail.com](mailto:wakjiratesama@gmail.com)  
-🌐 GitHub: [Wakjira-Tesama](https://github.com/Wakjira-Tesama)  
-💼 LinkedIn: [Wakjira Tesama](https://www.linkedin.com/in/wakjira-tesama/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/wakjira-tesama/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/Wakjira-Tesama)
+📧 Email: [wakjiratesama@gmail.com](mailto:wakjiratesama@gmail.com)
