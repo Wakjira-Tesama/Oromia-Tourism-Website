@@ -259,14 +259,6 @@ This project is licensed under the MIT License — see the LICENSE
 📬 Contact
 ---
 
-📧 Email: [# wakjiratesama@gmail.com](mailto:wakjiratesama@gmail.com)  
+📧 Email: [wakjiratesama@gmail.com](mailto:wakjiratesama@gmail.com)  
 🌐 GitHub: [Wakjira-Tesama](https://github.com/Wakjira-Tesama)  
 💼 LinkedIn: [Wakjira Tesama](https://www.linkedin.com/in/wakjira-tesama/)
-
-
-
-
-
----
-
-
